@@ -1,0 +1,278 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	background: url(../img/grid.png);
+	margin: 0;
+}
+.navbar-inner{
+	background-image: -webkit-linear-gradient(top, #333333, #222222);
+}
+
+.navbar .brand{
+	float: left;
+display: block;
+padding: 8px 20px 12px;
+margin-left: -20px;
+font-size: 20px;
+font-weight: 200;
+line-height: 1;
+color: #ffffff;
+text-shadow:none;
+font-weight: normal;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+color: #ffffff;
+text-decoration: none;
+background-color: #222222;
+text-shadow:none;
+font-weight: normal;
+}
+
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
+	padding: 9px 15px;
+font-weight: bold;
+color: #777777;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-shadow:none;
+font-weight: normal;
+}
+
+.navbar .nav > li > a:hover{
+	background-color: transparent;
+color: #ffffff;
+text-decoration: none;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+border-width: 0 0 0px;
+}
+
+.dropdown-menu li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: white;
+  white-space: nowrap;
+}
+
+.btn-group.open .btn.dropdown-toggle {
+  background-color: red;
+}
+
+.btn-group.open .btn.dropdown-toggle {
+  background-color:lime;
+}
+.content-holder{
+	padding-right: 0;
+padding-left: 0;
+}
+.main-container{
+	padding-top: 50px;
+}
+.home-page{
+	background-image: url('../img/openbook.jpeg');
+	//position: relative;
+	top: -10px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top: 15px;	
+	height: 6%;
+margin-top: -10px;
+}
+
+.section{
+	width: 70%;
+}
+
+.backdiv{
+	background-color: rgba(255,255,255,.9);
+border: 1px solid #ccc;
+border-bottom: 0;
+border-radius: 1em 1em 1em 1em;
+color: #000;
+khtml-border-radius: 1em 1em 1em 1em;
+margin: 2em;
+margin-bottom: 0;
+moz-border-radius: 1em 1em 1em 1em;
+ms-border-radius: 1em 1em 1em 1em;
+o-border-radius: 1em 1em 1em 1em;
+overflow: hidden;
+padding: 10px;
+webkit-border-radius: 1em 1em 1em 1em;
+text-align: center;
+}
+
+.section .offset1:first-child {
+margin-left: 10.547009%;
+}
+
+.section .offset2:first-child {
+margin-left: 6.5%;
+}
+
+.section .span1 {
+width: 83.905983%;
+}
+
+/*.section [class*="span"] {
+display: block;
+float: left;
+width: 100%;
+min-height: 30px;
+margin-left: 2.564102564102564%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}*/
+
+.section .span5{
+	width: 88%;
+}
+.section .span2 {
+width: 30%;
+
+}
+
+.section .span3{
+	width: 35%;
+}
+
+.section .span4{
+	width: 24%;
+}
+.span{
+	float:left;
+}
+
+.one{
+	margin-left: 8.5%;
+	width: 82%;
+}
+
+.home-page img {
+max-height: 600px;
+min-width: 100%;
+overflow: hidden;
+}
+
+.backdiv img {
+max-height: 128px;
+max-width: 128px;
+min-width: 128px;
+}
+
+.two{
+	width: 32%;
+	margin-left: 34%;
+}
+
+.center{
+	text-align: center;
+}
+
+.three{
+	margin-left: 9%;
+	width: 81%;
+}
+
+.section .span6{
+	width: 31%;
+}
+
+.section .span7{
+	width: 34%;
+}
+
+.section .span8{
+	width: 21%;
+}
+
+.searchBox{
+	position: absolute;
+}
+
+.search{
+	position: absolute;
+overflow: hidden;
+height: 390px;
+width: 300px;
+}
+
+.input-append, .input-prepend{
+	font-size: 16px;
+}
+
+.right-div{
+	float:right;
+}
+
+.right-span{
+	width: 600px;
+}
+
+.post-book-button{
+	padding-top: 23px;
+}
+
+h2{
+	font-weight: normal;
+}
+
+.search-query {
+background-color: #fff;
+font-size: 24px;
+font-weight: 200;
+min-height: 40px;
+padding: 10px 10px 10px 15px;
+width: 90%;
+}
+
+.book-info{
+	width: 100%;
+}
+
+.left-div{
+ width: 48%;
+ float:left;
+ margin-left: 0;
+}
+
+.book {
+background: #fff;
+border: 1px solid #ccc;
+border-bottom: 0;
+border-radius: 1em 1em 1em 1em;
+color: #000;
+khtml-border-radius: 1em 1em 1em 1em;
+margin: 2em;
+margin-bottom: 0;
+moz-border-radius: 1em 1em 1em 1em;
+ms-border-radius: 1em 1em 1em 1em;
+o-border-radius: 1em 1em 1em 1em;
+overflow: hidden;
+padding: 10px;
+webkit-border-radius: 1em 1em 1em 1em;
+}
+
+.book p{
+margin-left: 20px;
+margin-right: 5px;
+}
+
+.title {
+font-size: 20px;
+}
+
+.schools-Info{
+	padding-top: 0px;
+}
+
