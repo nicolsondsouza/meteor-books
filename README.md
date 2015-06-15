@@ -2,5 +2,3 @@ meteor-books
 ============
 
 Book elibrary
-
-
